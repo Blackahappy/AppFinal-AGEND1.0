@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.agenda-ej"
+    version   = "1.0.0">
+
+<name>Agenda con PhoneGap</name>
+
+<description>
+Agenda practica
+</description>
+
+<author href="" email="">
+Academico
+</author>
+<icon src="images/agenda.png" gap:density="ldpi" gap:platform="android" />
+<icon src="images/agenda.png" gap:density="mdpi" gap:platform="android" />
+<icon src="images/agenda.png" gap:density="hdpi" gap:platform="android" />
+<icon src="images/agenda.png" gap:density="xhdpi" gap:platform="android" />
+
+<plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
+
+<plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
+<plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+
+<allow-intent href="tel:*" />
+
+
+</widget>
